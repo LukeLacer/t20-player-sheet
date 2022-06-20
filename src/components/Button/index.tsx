@@ -6,9 +6,9 @@ type IButtonProps = {
     children: React.ReactNode
 }
 
-const Button: React.FC<IButtonProps> = ({
+const Button = ({
     children
-}) => {
+}: IButtonProps) => {
     return <ButtonContainer>{children}</ButtonContainer>
 }
 
