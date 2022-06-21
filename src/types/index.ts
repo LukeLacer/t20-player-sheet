@@ -1,4 +1,7 @@
-import { Character } from "./character";
+import { Background } from "./background";
+import { CharacterOptions } from "./character";
+import { Class } from "./class";
+import { Race } from "./race";
 
 
-export type { Character }
+export type { CharacterOptions, Race, Background, Class }

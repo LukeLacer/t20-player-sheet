@@ -21,4 +21,21 @@ type Character = {
     skills: Array<Skill>;
 }
 
-export type { Character }
+type CharacterOptions = {
+    name: string;
+    race: Array<Race>;
+    class: Array<Class>;
+    background: Array<Background>;
+    god?: Array<God>;
+    MaxPV: number;
+    MaxPM: number;
+    defense: number;
+    size: string;
+    speed: number;
+    age: number;
+    ethical: string;
+    moral: string;
+    skills: Array<Skill>;
+}
+
+export type { Character, CharacterOptions }
