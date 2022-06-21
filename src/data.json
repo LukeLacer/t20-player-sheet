@@ -1,0 +1,275 @@
+{
+    "character": {
+        "size": [
+            "Minúsculo",
+            "Pequeno",
+            "Médio",
+            "Grande",
+            "Enorme",
+            "Colossal"
+        ],
+        "ethical": [
+            "Bom",
+            "Neutro",
+            "Mau"
+        ],
+        "moral": [
+            "Leal",
+            "Neutro",
+            "Caótico"
+        ],
+        "race": [
+            { "name": "Humano", "size": "Médio" },
+            { "name": "Anão", "size": "Médio" },
+            { "name": "Dahllan", "size": "Médio" },
+            { "name": "Elfo", "size": "Médio" },
+            { "name": "Goblin", "size": "Pequeno" },
+            { "name": "Lefou", "size": "Médio" },
+            { "name": "Minotauro", "size": "Médio" },
+            { "name": "Qareen", "size": "Médio" },
+            { "name": "Golem", "size": "Médio" },
+            { "name": "Hynne", "size": "Pequeno" },
+            { "name": "Kliren", "size": "Médio" },
+            { "name": "Medusa", "size": "Médio" },
+            { "name": "Osteon", "size": "Médio" },
+            { "name": "Sereia/Tritão", "size": "Médio" },
+            { "name": "Sílfide", "size": "Minúsculo" },
+            { "name": "Suraggel", "size": "Médio" },
+            { "name": "Trog", "size": "Médio" }
+        ],
+        "class": [
+            { "name": "Arcanista" },
+            { "name": "Bárbaro" },
+            { "name": "Bardo" },
+            { "name": "Bucaneiro" },
+            { "name": "Caçador" },
+            { "name": "Cavaaleiro" },
+            { "name": "Clérigo" },
+            { "name": "Druida" },
+            { "name": "Guerreiro" },
+            { "name": "Inventor" },
+            { "name": "Ladino" },
+            { "name": "Lutador" },
+            { "name": "Nobre" },
+            { "name": "Paaladino" }
+        ],
+        "background": [
+            { "name": "Acólito" },
+            { "name": "Amigo dos Animais" },
+            { "name": "Amnésico" },
+            { "name": "Aristocrata" },
+            { "name": "Artesão" },
+            { "name": "Artista" },
+            { "name": "Assistente de Laboratório" },
+            { "name": "Batedor" },
+            { "name": "Capanga" },
+            { "name": "Charlatão" },
+            { "name": "Circense" },
+            { "name": "Criminoso" },
+            { "name": "Curandeiro" },
+            { "name": "Eremita" },
+            { "name": "Escravo" },
+            { "name": "Estudioso" },
+            { "name": "Fazendeiro" },
+            { "name": "Forasteiro" },
+            { "name": "Gladiador" },
+            { "name": "Guarda" },
+            { "name": "Herdeiro" },
+            { "name": "Herói Camponês" },
+            { "name": "Marujo" },
+            { "name": "Mateiro" },
+            { "name": "Membro de Guilda" },
+            { "name": "Mercador" },
+            { "name": "Minerador" },
+            { "name": "Nômade" },
+            { "name": "Pivete" },
+            { "name": "Refugiado" },
+            { "name": "Seguidor" },
+            { "name": "Selvagem" },
+            { "name": "Soldado" },
+            { "name": "Taverneiro" },
+            { "name": "Trabalhador" }
+        ],
+        "god": [
+            { "name": "Aharadak" },
+            { "name": "Allihanna" },
+            { "name": "Arsenal" },
+            { "name": "Azgher" },
+            { "name": "Hyninn" },
+            { "name": "Kallyadranoch" },
+            { "name": "Khalmyr" },
+            { "name": "Lena" },
+            { "name": "Lin-Wu" },
+            { "name": "Marah" },
+            { "name": "Megalokk" },
+            { "name": "Nimb" },
+            { "name": "Oceano" },
+            { "name": "Sszzaas" },
+            { "name": "Tanna-Toh" },
+            { "name": "Tenebra" },
+            { "name": "Thwor" },
+            { "name": "Thyatis" },
+            { "name": "Valkaria" },
+            { "name": "Wynna" }
+        ],
+        "skill": {
+            "Destreza": [
+                {
+                    "name": "Acrobacia",
+                    "onlyTrained": false,
+                    "armorPenalty": true
+                },
+                {
+                    "name": "Cavalgar",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Furtividade",
+                    "onlyTrained": false,
+                    "armorPenalty": true
+                },
+                {
+                    "name": "Iniciativa",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Laadinagem",
+                    "onlyTrained": true,
+                    "armorPenalty": true
+                },
+                {
+                    "name": "Pilotagem",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Pontaria",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Reflexos",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ],
+            "Sabedoria": [
+                {
+                    "name": "Cura",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Intuição",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Percepção",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Religião",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Sobrevivência",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Vontade",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ],
+            "Carisma": [
+                {
+                    "name": "Adestramento",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Atuação",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Diplomacia",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Enganação",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Jogatina",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Intimidação",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ],
+            "Força": [
+                {
+                    "name": "Atletismo",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Luta",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ],
+            "Constituição": [
+                {
+                    "name": "Fortitude",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ],
+            "Inteligência": [
+                {
+                    "name": "Misticismo",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Nobreza",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Ofício",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Conhecimento",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Guerra",
+                    "onlyTrained": true,
+                    "armorPenalty": false
+                },
+                {
+                    "name": "Investigação",
+                    "onlyTrained": false,
+                    "armorPenalty": false
+                }
+            ]
+        }
+    }
+}
