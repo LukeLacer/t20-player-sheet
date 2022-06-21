@@ -1,9 +1,10 @@
 import React from 'react';
+import PlayerSheet from './pages/PlayerSheet';
 
-function App() {
+const App = () => {
   return (
     <>
-      Tormenta20PlayerSheet
+      <PlayerSheet />
     </>
   )
 }
