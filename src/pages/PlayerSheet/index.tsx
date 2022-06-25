@@ -22,8 +22,9 @@ const PlayerSheet = () => {
     }, [])
     
     
-    return <PlayerSheetContainer>
-        <div>Raça: {selectedRace}</div>
+    return (
+        <PlayerSheetContainer>
+            <div>Raça: {selectedRace}</div>
         <div>Classe: {selectedClass}</div>
         <div>Origem: {selectedBackground}</div>
         <InputContainer>
@@ -61,6 +62,7 @@ const PlayerSheet = () => {
             </select>
         </InputContainer>
     </PlayerSheetContainer>
+    )
 }
 
 export default PlayerSheet
