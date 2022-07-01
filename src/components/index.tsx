@@ -1,3 +1,8 @@
-import Button from "./Button";
+import Information from "./Information";
+import Popup from "./Popup";
 
-export { Button }
+
+export {
+    Popup,
+    Information
+}

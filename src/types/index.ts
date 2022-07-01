@@ -1,7 +1,6 @@
 import { Background } from "./background";
-import { CharacterOptions } from "./character";
+import { Character, CharacterOptions } from "./character";
 import { Class } from "./class";
 import { Race } from "./race";
 
-
-export type { CharacterOptions, Race, Background, Class }
+export type { Character, CharacterOptions, Race, Background, Class }

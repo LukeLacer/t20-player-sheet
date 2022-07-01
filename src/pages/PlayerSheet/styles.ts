@@ -1,15 +1,14 @@
 import styled from "styled-components"
 
-export const PlayerSheetContainer = styled.div`
-    padding: 10px 20px;
-    margin: auto;
-    width: 50%;
-    background-color: #e1e1e1;
+export const CharacterContainer = styled.div`
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 `
 
-export const InputContainer = styled.div`
-    margin: 10px 0;
-    width: 300px;
+
+export const Line = styled.div`
     display: flex;
-    justify-content: space-between;
+    margin: 10px 0;
+    justify-content: space-around;
 `

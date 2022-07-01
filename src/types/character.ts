@@ -1,24 +1,51 @@
 import { Background } from "./background";
-import { Class } from "./class";
 import { God } from "./god";
 import { Race } from "./race";
 import { Skill } from "./skill";
+  
+interface Character {
+  playersName: string
+  name: string
+  race: string
+  background: string
+  class: Class[]
+  god: string
+  godDevotee: boolean
+  attributes: Attributes
+  lifePoints: number
+  manaPoints: number
+  itens: Item[]
+  history: string
+}
 
-type Character = {
-    name: string;
-    race: Race;
-    class: Class;
-    background: Background;
-    god?: God;
-    MaxPV: number;
-    MaxPM: number;
-    defense: number;
-    size: string;
-    speed: number;
-    age: number;
-    ethical: string;
-    moral: string;
-    skills: Array<Skill>;
+interface Class {
+  name: string
+  level: number
+}
+
+interface Attributes {
+  strength: number
+  dexterity: number
+  constitution: number
+  intelligence: number
+  wisdom: number
+  charisma: number
+}
+
+interface Item {
+  name: string
+  category: string
+  subcategory?: string
+  price: string
+  damage?: string
+  critic?: string
+  range?: string
+  weight?: number
+  type?: string
+  descrition?: string
+  defenseBonus?: number
+  armorPenalty?: number
+  Weigth?: number
 }
 
 type CharacterOptions = {

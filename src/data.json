@@ -1,5 +1,5 @@
 {
-    "character": {
+    "characterOptions": {
         "size": [
             "Minúsculo",
             "Pequeno",
@@ -271,5 +271,96 @@
                 }
             ]
         }
-    }
+    },
+    "defaultCharacter": {
+        "playersName": "Lucas Lima",
+        "name": "Zahid",
+        "race": "Qareen",
+        "background": "Acólito",
+        "history": "Essa é a história do personagem",
+        "class": [
+          {
+            "name": "Clérigo",
+            "level": 1
+          }
+        ],
+        "god": "Thyatis",
+        "godDevotee": true,
+        "attributes": {
+          "strength": 14,
+          "dexterity": 13,
+          "constitution": 15,
+          "intelligence": 15,
+          "wisdom": 14,
+          "charisma": 15
+        },
+        "lifePoints": 18,
+        "manaPoints": 7,
+        "itens": [
+          {
+            "name": "maça",
+            "category": "Arma",
+            "subcategory": "Corpo a Corpo - Uma Mão",
+            "price": "T$ 12",
+            "damage": "1d8",
+            "critic": "x2",
+            "range": "",
+            "weight": 6,
+            "type": "impact",
+            "descrition": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos."
+          },
+          {
+            "name": "mochila",
+            "category": "Geral",
+            "price": "T$ 2",
+            "weight": 1,
+            "description": "Esta bolsa reforçada de couro tem bolsos e tiras para ser carregada nas costas e prender equipamentos diversos."
+          },
+          {
+            "name": "saco de dormir",
+            "category": "Geral",
+            "price": "T$ 1",
+            "weight": 2.5,
+            "description": "Composto por um colchão e uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um saco de dormir diminui sua recuperação de PV e PM."
+          },
+          {
+            "name": "traje de sacerdote",
+            "category": "Vestuário",
+            "price": "T$ 5",
+            "weight": 2,
+            "description": "Inclui botas resistentes, calças ou saias, cinto, camisa de linho e capa com capuz. São as roupas padrão de aventureiros. CD 15."
+          },
+          {
+            "name": "simbolo sagrado",
+            "category": "Thyatis",
+            "price": "T$ 0",
+            "weight": 0,
+            "description": "Uma ave fênix"
+          },
+          {
+            "name": "brunea",
+            "category": "Armadura",
+            "subcategory": "Pesada",
+            "price": "T$ 50",
+            "defenseBonus": 5,
+            "armorPenalty": -2,
+            "Weigth": 15,
+            "description": "Colete de couro coberto com plaquetas de metal sobrepostas, como escamas de um peixe. Por ser barata de produzir, é a armadura mais utilizada no Reinado por soldados de infantaria e guardas de castelo."
+          },
+          {
+            "name": "escudo leve",
+            "category": "Arma",
+            "subcategory": "Corpo a Corpo - Leve",
+            "price": "T$ 5",
+            "damage": "1d4",
+            "critic": "x2",
+            "defenseBonus": 1,
+            "armorPenalty": -1,
+            "range": "",
+            "weight": 3,
+            "type": "impact",
+            "descrition": "Tipicamente feito de madeira, este escudo é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma."
+          }
+        ]
+      }
 }
