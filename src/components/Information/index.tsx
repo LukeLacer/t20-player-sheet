@@ -8,7 +8,7 @@ import {
 
 interface IInformation {
     label: string
-    data?: string
+    data?: string | number
     labelOnTop?: boolean
 }
 

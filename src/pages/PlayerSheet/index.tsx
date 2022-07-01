@@ -17,7 +17,9 @@ import {
 const PlayerSheet = () => {
     const [character, setCharacter] = useState<Character>()
     const [classLabel, setClassLabel] = useState<string>()
+    const [defense, setDefense] = useState<number>(10)
     const playerSheetLabels = strings.playerSheet
+
 
     useEffect(() => {
         setCharacter(getCharacter())
@@ -31,6 +33,8 @@ const PlayerSheet = () => {
                 : newClassLabel.concat(` e ${value.name} de ${value.level}º Nível`)
         })
         setClassLabel(newClassLabel)
+
+
     }, [character])
 
     return (
@@ -56,8 +60,10 @@ const PlayerSheet = () => {
             <Line>
                 <PointsCounter label={playerSheetLabels.lifePoints} initialPoints={character?.lifePoints} />
                 <PointsCounter label={playerSheetLabels.manaPoints} initialPoints={character?.manaPoints} />
+                <Information labelOnTop={true} label={playerSheetLabels.defense} data={defense} />
             </Line>
             <Skills skillList={character?.skills} attributes={character?.attributes} />
+            
         </CharacterContainer>
     )
 }

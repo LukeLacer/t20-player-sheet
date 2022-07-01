@@ -13,7 +13,8 @@ const strings = {
         wisdom: "SAB",
         charisma: "CAR",
         lifePoints: "PONTOS DE VIDA",
-        manaPoints: "PONTOS DE MANA"
+        manaPoints: "PONTOS DE MANA",
+        defense: "DEFESA"
     },
     skills: {
         title: "PERÍCIAS"

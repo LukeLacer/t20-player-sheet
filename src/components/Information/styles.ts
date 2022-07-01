@@ -9,6 +9,7 @@ export const DataContainer = styled.div`
     border-radius: 5px;
     padding: 3px 10px;
     width: 200px;
+    text-align: center;
 `
 
 export const LabelContainer = styled.div`
