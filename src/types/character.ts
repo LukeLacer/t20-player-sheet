@@ -2,6 +2,7 @@ import { Background } from "./background";
 import { God } from "./god";
 import { Race } from "./race";
 import { Skill } from "./skill";
+import { Class } from "./class";
   
 interface Character {
   playersName: string
@@ -16,11 +17,7 @@ interface Character {
   manaPoints: number
   itens: Item[]
   history: string
-}
-
-interface Class {
-  name: string
-  level: number
+  skills: Skill[]
 }
 
 interface Attributes {
@@ -65,4 +62,4 @@ type CharacterOptions = {
     skills: Array<Skill>;
 }
 
-export type { Character, CharacterOptions }
+export type { Character, CharacterOptions, Attributes }

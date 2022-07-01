@@ -361,6 +361,211 @@
             "type": "impact",
             "descrition": "Tipicamente feito de madeira, este escudo é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma."
           }
+        ],
+        "skills": [
+            {
+                "name": "Acrobacia",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": true,
+                "trainement": 0
+            },
+            {
+                "name": "Adestramento",
+                "attributeKey": "charisma",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Atletismo",
+                "attributeKey": "strength",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Atuação",
+                "attributeKey": "charisma",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Cavalgar",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Conhecimento",
+                "attributeKey": "intelligence",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Cura",
+                "attributeKey": "wisdom",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 2
+            },
+            {
+                "name": "Diplomacia",
+                "attributeKey": "charisma",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Enganação",
+                "attributeKey": "charisma",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Fortitude",
+                "attributeKey": "constitution",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Furtividade",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": true,
+                "trainement": 0
+            },
+            {
+                "name": "Guerra",
+                "attributeKey": "intelligence",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Iniciativa",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Intimidação",
+                "attributeKey": "charisma",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Intuição",
+                "attributeKey": "wisdom",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Investigação",
+                "attributeKey": "intelligence",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Jogatina",
+                "attributeKey": "charisma",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Ladinagem",
+                "attributeKey": "dexterity",
+                "onlyTrained": true,
+                "armorPenalty": true,
+                "trainement": 0
+            },
+            {
+                "name": "Luta",
+                "attributeKey": "strength",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Misticismo",
+                "attributeKey": "intelligence",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Nobreza",
+                "attributeKey": "intelligence",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Percepção",
+                "attributeKey": "wisdom",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Pilotagem",
+                "attributeKey": "dexterity",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Pontaria",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Reflexos",
+                "attributeKey": "dexterity",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Religião",
+                "attributeKey": "wisdom",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 2
+            },
+            {
+                "name": "Sobrevivência",
+                "attributeKey": "wisdom",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 0
+            },
+            {
+                "name": "Vontade",
+                "attributeKey": "wisdom",
+                "onlyTrained": false,
+                "armorPenalty": false,
+                "trainement": 2
+            },
+            {
+                "name": "Ofício (Culinária)",
+                "attributeKey": "intelligence",
+                "onlyTrained": true,
+                "armorPenalty": false,
+                "trainement": 1
+            }
         ]
       }
 }

@@ -1,6 +1,6 @@
-type Class = {
-    name: string;
-    source: string;
+interface Class {
+    name: string
+    level: number
 }
 
 export type { Class }

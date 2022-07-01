@@ -3,7 +3,6 @@ type Skill = {
     attributeKey: string;
     onlyTrained: boolean;
     armorPenalty: boolean;
-    modifier: number;
     trainement: number
 }
 

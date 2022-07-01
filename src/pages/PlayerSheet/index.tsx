@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react"
 import { 
     Information,
     AttributeInformation,
-    PointsCounter
+    PointsCounter,
+    Skills
 } from "../../components"
 import { strings } from "../../helpers"
 import { getCharacter } from "../../service"
@@ -56,6 +57,7 @@ const PlayerSheet = () => {
                 <PointsCounter label={playerSheetLabels.lifePoints} initialPoints={character?.lifePoints} />
                 <PointsCounter label={playerSheetLabels.manaPoints} initialPoints={character?.manaPoints} />
             </Line>
+            <Skills skillList={character?.skills} attributes={character?.attributes} />
         </CharacterContainer>
     )
 }

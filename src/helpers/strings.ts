@@ -14,6 +14,9 @@ const strings = {
         charisma: "CAR",
         lifePoints: "PONTOS DE VIDA",
         manaPoints: "PONTOS DE MANA"
+    },
+    skills: {
+        title: "PERÍCIAS"
     }
 }
 
