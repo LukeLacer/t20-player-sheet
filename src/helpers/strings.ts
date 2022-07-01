@@ -5,7 +5,15 @@ const strings = {
         race: "RAÇA",
         background: "ORIGEM",
         class: "CLASSE & NÍVEL",
-        god: "DIVINDADE"
+        god: "DIVINDADE",
+        strength: "FOR",
+        dexterity: "DES",
+        constitution: "CON",
+        intelligence: "INT",
+        wisdom: "SAB",
+        charisma: "CAR",
+        lifePoints: "PONTOS DE VIDA",
+        manaPoints: "PONTOS DE MANA"
     }
 }
 

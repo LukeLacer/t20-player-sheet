@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { Information } from "../../components"
+import { 
+    Information,
+    AttributeInformation,
+    PointsCounter
+} from "../../components"
 import { strings } from "../../helpers"
 import { getCharacter } from "../../service"
 import { Character } from "../../types"
@@ -39,6 +43,18 @@ const PlayerSheet = () => {
                 <Information labelOnTop={false} label={playerSheetLabels.background} data={character?.background} />
                 <Information labelOnTop={false} label={playerSheetLabels.class} data={classLabel} />
                 <Information labelOnTop={false} label={playerSheetLabels.god} data={character?.god} />
+            </Line>
+            <Line>
+                <AttributeInformation label={playerSheetLabels.strength} baseValue={character?.attributes.strength} />
+                <AttributeInformation label={playerSheetLabels.dexterity} baseValue={character?.attributes.dexterity} />
+                <AttributeInformation label={playerSheetLabels.constitution} baseValue={character?.attributes.constitution} />
+                <AttributeInformation label={playerSheetLabels.intelligence} baseValue={character?.attributes.intelligence} />
+                <AttributeInformation label={playerSheetLabels.wisdom} baseValue={character?.attributes.wisdom} />
+                <AttributeInformation label={playerSheetLabels.charisma} baseValue={character?.attributes.charisma} />
+            </Line>
+            <Line>
+                <PointsCounter label={playerSheetLabels.lifePoints} initialPoints={character?.lifePoints} />
+                <PointsCounter label={playerSheetLabels.manaPoints} initialPoints={character?.manaPoints} />
             </Line>
         </CharacterContainer>
     )

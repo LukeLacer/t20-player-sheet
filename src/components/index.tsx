@@ -1,8 +1,12 @@
 import Information from "./Information";
 import Popup from "./Popup";
+import AttributeInformation from './AttributeInformation';
+import PointsCounter from './PointsCounter';
 
 
 export {
     Popup,
-    Information
+    Information,
+    AttributeInformation,
+    PointsCounter
 }

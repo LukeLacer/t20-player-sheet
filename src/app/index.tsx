@@ -8,7 +8,7 @@ const App = () => {
    return (
     <Router>
         <RouterWrapper>
-            <div style={{width: '200px', display: 'flex', flexDirection: 'column', background: '#a1a1a1'}}>
+            <div style={{width: '100px', display: 'flex', flexDirection: 'column', background: '#a1a1a1'}}>
                 <Link to={{pathname: "/"}}>
                     Home
                 </Link>
